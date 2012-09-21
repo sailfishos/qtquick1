@@ -13,8 +13,8 @@ BuildRequires:  qt5-qtcore-devel
 BuildRequires:  qt5-qtgui-devel
 BuildRequires:  qt5-qtwidgets-devel
 BuildRequires:  qt5-qtopengl-devel
-BuildRequires:  qt5-qtqml-devel
-BuildRequires:  qt5-qtqml-qtquick-devel
+BuildRequires:  qt5-qtdeclarative-devel
+BuildRequires:  qt5-qtdeclarative-qtquick-devel
 BuildRequires:  qt5-qtnetwork-devel
 BuildRequires:  qt5-qtscript-devel
 BuildRequires:  qt5-qtxmlpatterns-devel
