@@ -1,3 +1,6 @@
+* Wed Jan 23 2013 Carsten Munk <carsten.munk@jollamobile.com> - 5.0.0
+- Update to 5.0.0
+
 * Fri Sep 21 2012 Carsten Munk <carsten.munk@jollamobile.com> - 5.0.0~beta
 - Fix qtqml-devel -> qtdeclarative-devel
 

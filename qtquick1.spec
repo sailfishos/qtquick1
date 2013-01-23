@@ -1,7 +1,7 @@
-%define _qtmodule_snapshot_version 5.0.0-beta1
+%define _qtmodule_snapshot_version 5.0.0
 Name:       qt5-qtquick1
 Summary:    Qt Quick 1
-Version:    5.0.0~beta1
+Version:    5.0.0
 Release:    1%{?dist}
 Group:      Qt/Qt
 License:    LGPLv2.1 with exception or GPLv3
@@ -50,7 +50,7 @@ This package contains the Qt Quick 1 development files
 
 %build
 export QTDIR=/usr/share/qt5
-%qmake CONFIG+=package
+qmake 
 make %{?_smp_flags}
 
 %install
@@ -84,19 +84,20 @@ rm -rf %{buildroot}/%{_includedir}/qt5/Qt
 %files
 %defattr(-,root,root,-)
 %{_bindir}/qmlviewer
-%{_libdir}/libQtQuick1.so.5
-%{_libdir}/libQtQuick1.so.5.*
+%{_bindir}/qml1plugindump
+%{_libdir}/libQt5Declarative.so.5
+%{_libdir}/libQt5Declarative.so.5.*
 %{_libdir}/qt5/plugins/qmltooling/libqmldbg*.so
 %{_libdir}/qt5/imports/*
 
 %files devel
 %defattr(-,root,root,-)
-%{_libdir}/libQtQuick1.so
-%{_libdir}/libQtQuick1.prl
-%{_includedir}/qt5/QtQuick1/
+%{_libdir}/libQt5Declarative.so
+%{_libdir}/libQt5Declarative.prl
+%{_includedir}/qt5/QtDeclarative/
 %{_libdir}/cmake/
-%{_libdir}/pkgconfig/QtQuick1.pc
-%{_datadir}/qt5/mkspecs/modules/qt_quick1.pri
+%{_libdir}/pkgconfig/Qt5Declarative.pc
+%{_datadir}/qt5/mkspecs/modules/qt_lib_declarative.pri
 
 
 
