@@ -84,7 +84,7 @@ rm -rf %{buildroot}/%{_includedir}/qt5/Qt
 %{_qt5_bindir}/qml1plugindump
 %{_libdir}/libQt5Declarative.so.5
 %{_libdir}/libQt5Declarative.so.5.*
-%{_libdir}/qt5/plugins/qmltooling/libqmldbg*.so
+%{_libdir}/qt5/plugins/qml1tooling/libqmldbg*.so
 %{_libdir}/qt5/imports/*
 
 %files devel
