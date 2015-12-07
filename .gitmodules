@@ -1,3 +1,3 @@
 [submodule "upstream"]
 	path = upstream
-	url = git://qt.gitorious.org/qt/qtquick1.git
+	url = https://git.merproject.org/mirror/qtquick1.git
