@@ -95,8 +95,7 @@ rm -rf %{buildroot}/%{_includedir}/qt5/Qt
 %{_libdir}/cmake/
 %{_libdir}/pkgconfig/Qt5Declarative.pc
 %{_datadir}/qt5/mkspecs/modules/qt_lib_declarative.pri
-
+%{_datadir}/qt5/mkspecs/modules/qt_lib_declarative_private.pri
 
 
 #### No changelog section, separate $pkg.changes contains the history
-
